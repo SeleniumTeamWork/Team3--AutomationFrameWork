@@ -9,7 +9,7 @@
     <test name="Home Page">
 
         <classes>
-            <class name=""/>
+            <class name="search.BasicSearch"/>
         </classes>
 
     </test>

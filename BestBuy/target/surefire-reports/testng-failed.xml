@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [BestBuy App running on Firefox Browser]">
+  <parameter name="url" value="http://www.bestbuy.com"/>
+  <test name="Home Page">
+    <classes>
+      <class name="search.BasicSearch"/>
+    </classes>
+  </test> <!-- Home Page -->
+  <test name="Home Page(failed)">
+    <classes>
+      <class name="search.BasicSearch">
+        <methods>
+          <include name="searchProduct"/>
+        </methods>
+      </class> <!-- search.BasicSearch -->
+    </classes>
+  </test> <!-- Home Page(failed) -->
+</suite> <!-- Failed suite [BestBuy App running on Firefox Browser] -->

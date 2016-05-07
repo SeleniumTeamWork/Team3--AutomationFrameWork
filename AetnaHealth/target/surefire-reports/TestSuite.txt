@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 33.598 sec <<< FAILURE! - in TestSuite
+cleanUp(homePage.Search)  Time elapsed: 16.036 sec  <<< FAILURE!
+java.lang.RuntimeException: Process refused to die after 10 seconds, and couldn't taskkill it: Unable to find executable for: taskkill
+Caused by: java.lang.NullPointerException: Unable to find executable for: taskkill
+
