@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AetnaHealth/AetnaHealth.iml" filepath="$PROJECT_DIR$/AetnaHealth/AetnaHealth.iml" />
       <module fileurl="file://$PROJECT_DIR$/Amazon/Amazon.iml" filepath="$PROJECT_DIR$/Amazon/Amazon.iml" />
-      <module fileurl="file://$PROJECT_DIR$/BestBuy/BestBuy.iml" filepath="$PROJECT_DIR$/BestBuy/BestBuy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Staple/BestBuy.iml" filepath="$PROJECT_DIR$/Staple/BestBuy.iml" />
       <module fileurl="file://$PROJECT_DIR$/CitiBank/CitiBank.iml" filepath="$PROJECT_DIR$/CitiBank/CitiBank.iml" />
       <module fileurl="file://$PROJECT_DIR$/Cnn/Cnn.iml" filepath="$PROJECT_DIR$/Cnn/Cnn.iml" />
       <module fileurl="file://$PROJECT_DIR$/Facebook/Facebook.iml" filepath="$PROJECT_DIR$/Facebook/Facebook.iml" />

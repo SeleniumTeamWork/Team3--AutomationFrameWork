@@ -1,0 +1,27 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 36.468 sec <<< FAILURE! - in TestSuite
+searchProduct(search.BasicSearch)  Time elapsed: 20.119 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: {"method":"css selector","selector":"#searchTerm"}
+Command duration or timeout: 20.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'iqbal', ip: '192.168.83.1', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_71'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 3b62da9f-87ff-4451-ad67-1eceea8db2ef
+*** Element info: {Using=css selector, value=#searchTerm}
+	at search.BasicSearch.searchProduct(BasicSearch.java:24)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: {"method":"css selector","selector":"#searchTerm"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'iqbal', ip: '192.168.83.1', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_71'
+Driver info: driver.version: unknown
+
+cleanUp(search.BasicSearch)  Time elapsed: 20.251 sec  <<< FAILURE!
+java.lang.RuntimeException: Process refused to die after 10 seconds, and couldn't taskkill it: Unable to find executable for: taskkill
+Caused by: java.lang.NullPointerException: Unable to find executable for: taskkill
+
